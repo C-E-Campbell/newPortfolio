@@ -1,0 +1,14 @@
+/* {
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.5rem;
+} */
+.projectCard_container {
+  display: flex;
+  margin: 0 auto;
+}
+
+.project_container {
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+}
