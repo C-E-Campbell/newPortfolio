@@ -1,12 +1,4 @@
-import Head from 'next/head';
-
+import Nav from '../components/nav.jsx';
 export default function Projects() {
-  return (
-    <div>
-      <Head>
-        <title>Projects</title>
-      </Head>
-      <main>hello from projects</main>
-    </div>
-  );
+  return <Nav />;
 }
