@@ -14,9 +14,14 @@ export default function ProjectCard(props) {
         {props.skill5 ? <h5>{props.skill5}</h5> : null}
         {props.skill6 ? <h5>{props.skill6}</h5> : null}
       </div>
-
-      <a href="">Live Site</a>
-      <a href="">View Code</a>
+      <div className={styles.project_buttons}>
+        <a target="_blank" className={styles.button} href={props.site}>
+          Live Site
+        </a>
+        <a target="_blank" className={styles.button} href={props.code}>
+          View Code
+        </a>
+      </div>
     </div>
   );
 }

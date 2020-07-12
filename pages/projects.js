@@ -27,6 +27,8 @@ export default function Projects() {
             skill4={'Nodemailer'}
             skill5={'SportsRadar API'}
             skill6={'AWS S3'}
+            site={'https://devtennis.xyz/'}
+            code={'https://github.com/C-E-Campbell/devTennis'}
           />
           <ProjectCard
             imgSrc={'/horror.jpg'}
@@ -39,9 +41,11 @@ export default function Projects() {
             skill3={'Express'}
             skill4={'OMDB API'}
             skill5={'Auth w/ BCrypt'}
+            site={'https://100daysofhorror.com'}
+            code={'https://github.com/C-E-Campbell/100daysofhorror'}
           />
         </div>
-        <div>
+        <div className={styles.projectCard_container}>
           <ProjectCard
             imgSrc={'/group.jpg'}
             title={'This is DevMountain'}
@@ -54,6 +58,8 @@ export default function Projects() {
             skill4={'Socket.io'}
             skill5={'Chart.js'}
             skill6={'Redis'}
+            code={'https://github.com/C-E-Campbell/restart'}
+            site={'https://thisisdevmountain.com/'}
           />
           <ProjectCard
             imgSrc={'/movein.png'}
@@ -65,6 +71,8 @@ export default function Projects() {
             skill2={'PostgreSQL'}
             skill3={'Express'}
             skill4={'JWT'}
+            site={'https://movein.life/'}
+            code={'https://github.com/C-E-Campbell/move_in_app'}
           />
         </div>
       </section>

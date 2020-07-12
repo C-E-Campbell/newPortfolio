@@ -2,8 +2,15 @@
   font-family: 'Dosis', sans-serif;
   line-height: 1.5rem;
 } */
+.container {
+  background-color: rgb(16, 16, 48);
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.5rem;
+  overflow-x: hidden;
+}
 .projectCard_container {
   display: flex;
+  justify-content: space-evenly;
   margin: 0 auto;
 }
 
@@ -11,4 +18,6 @@
   width: 100%;
   max-width: 80%;
   margin: 0 auto;
+
+  background-color: rgb(16, 16, 48);
 }
